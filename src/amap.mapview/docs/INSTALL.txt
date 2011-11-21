@@ -1,0 +1,17 @@
+amap.mapview Installation
+-------------------------
+
+To install amap.mapview using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+* Add ``amap.mapview`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        amap.mapview
+       
+* Re-run buildout, e.g. with:
+
+    $ ./bin/buildout
